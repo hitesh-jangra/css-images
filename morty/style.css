@@ -1,0 +1,118 @@
+body {
+    background-color: SlateBlue;
+}
+
+.box {
+    position: relative;
+    margin: auto;
+    margin-top: 8%;
+    width: 500px;
+    height: 500px;
+}
+
+.head {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    left: 25%;
+    top: 8%;
+    z-index: 1;
+    background: #F7C19F;
+    border-radius: 50% 50% 45% 45%;
+    box-shadow: 0 -32px 0 8px #854F1E;
+}
+
+.left-eye {
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    top: 30%;
+    left: 15%;
+    z-index: 2;
+    background: #fff;
+    border-radius: 50%;
+    
+}
+
+.right-eye {
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    top: 30%;
+    right: 15%;
+    z-index: 2;
+    background: #fff;
+    border-radius: 50%; 
+}
+
+.pupil {
+    position: absolute;
+    width: 15%;
+    height: 15%;
+    top: 45%;
+    left: 35%;
+    z-index: 3;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.eyelid-1 {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    z-index: 4;
+    background-color: #F7C19F;
+    /*border-radius: 100px 100px 0 0;*/
+    border-radius: 50px 50px 0 0;
+    box-shadow: 0 1px 1px #999;
+}
+.nose {
+    position: absolute;
+    width: 20%;
+    height: 10%;
+    top: 53%;
+    left: 37%;
+    transform: rotate(45deg);
+    border-radius: 50% 40%;
+    border-right: 1px solid rgba(0, 0, 0, .9); 
+}
+
+.mouth {
+    position: absolute;
+    width: 33%;
+    height: 20%;
+    bottom: 5%;
+    left: 32%;
+    border-top: 1px solid #2B1E12;  
+    transform: rotate(4deg);
+}
+
+.left-ear {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    bottom: 27%;
+    left: -7%;
+    background: #F7C19F;
+    border-radius: 50%;
+}
+
+.right-ear {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    bottom: 27%;
+    right: -7%;
+    background: #F7C19F;
+    border-radius: 50%;
+}
+
+.shirt {
+    position: absolute;
+    width: 30%;
+    height: 35%;
+    bottom: 11%;
+    left: 34.4%;
+    background-color:#ffa500;
+    border-radius: 50% 50% 0 0;
+}
